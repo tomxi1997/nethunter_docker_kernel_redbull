@@ -14,9 +14,9 @@ CROSS_COMPILE_ARM32=arm-linux-gnueabi- \
 CLANG_TRIPLE=aarch64-linux-gnu- \
 AR=llvm-ar \
 NM=llvm-nm \
-OBJCOPY=llvm-objcopy \
+OBJCOPY=llvm-objcopy \nethunter-docker-support_redbull_defconfig
 OBJDUMP=llvm-objdump \
-STRIP=llvm-strip "
+STRIP=llvm-strip 
 make ${args} mrproper
-make ${args} nethunter-docker-support_defconfig
+make ${args} nethunter-docker-support_redbull_defconfig
 make ${args} menuconfig
