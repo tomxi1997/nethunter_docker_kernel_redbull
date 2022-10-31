@@ -16,7 +16,7 @@ AR=llvm-ar \
 NM=llvm-nm \
 OBJCOPY=llvm-objcopy \
 OBJDUMP=llvm-objdump \
-STRIP=llvm-strip 
+STRIP=llvm-strip "
 make ${args} mrproper
 make ${args} nethunter-docker-support_redbull_defconfig
 make ${args} menuconfig
