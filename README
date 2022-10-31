@@ -52,6 +52,8 @@ git clone https://github.com/tomxi1997/nethunter_docker_kernel_redbull.git
 对内核打补丁
 0x03  into the patch（add-rtl88xxau-5.6.4.2-drivers.patch,add-wifi-injection-4.14.patch）
 
+cd nethunter_docker_kernel_redbull
+
 patch -p1 < add-rtl88xxau-5.6.4.2-drivers.patch
 patch -p1 < add-wifi-injection-4.14.patch
 
